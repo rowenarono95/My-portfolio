@@ -1,3 +1,8 @@
+*{
+  padding: o;
+  margin: 0;
+}
+
 .topnav {
     background-color: #333;
     overflow: hidden;
@@ -21,3 +26,27 @@
     background-color: #4CAF50;
     color: white;
   }
+  #home{
+    position: relative;
+    max-width: 100%;
+    margin: auto;
+  }
+  
+  #home img{vertical-align: middle;}
+  #home #content{
+      position: absolute;
+      bottom: 0;
+      background: rgb(0,0,0);
+      background: rgba(0, 0, 0, 0.5);
+      color:blanchedalmond;
+      width: 100%;
+      padding: 10px;
+      height: 200px;
+  } 
+  
+  h1{
+    font-family: 'Gabriela', serif;
+    size: 25px;
+  }
+
+
