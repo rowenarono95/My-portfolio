@@ -1,4 +1,4 @@
-# ![My-portfolio](https://rowenarono95.io/My-portfolio/image/demo.png)
+# ![My-portfolio](https://rowenarono95.github.io/My-portfolio/image/demo.png)
 # portfolio
 <table>
 <tr>
@@ -8,10 +8,8 @@
 </tr>
 </table>
 
-
 ## Demo
-Here is a working live demo :  https://rowenarono95.github.io/My-portfolio/
-
+Here is a working live demo : gig
 ### Development
 Want to contribute? Great!
 
