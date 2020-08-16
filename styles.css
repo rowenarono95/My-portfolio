@@ -61,6 +61,8 @@ body{
     padding-left: 20%;
 }
 h2{
+  font-size:40px;
+  text-align: center;
     color: chocolate;    
 }
 #footer h2{
@@ -81,12 +83,16 @@ h2{
 }
 
 .color{
-  background-color: rgb(127, 255, 206);
-  font-size: small;
+  background-color: rgb(248, 239, 239);
+  font-size: x-large;
 }
 
 img{
-  border-radius: 15px;
+  border-radius: 25px;
+}
+
+span{
+    color: indigo;
 }
 
 
