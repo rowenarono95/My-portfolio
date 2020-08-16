@@ -4,80 +4,134 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
-    <link
-      rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
-    />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <title>Portfolio</title>
   </head>
   <body>
-    <div class="topnav">
-      <a class="active" href="#home">Home</a>
-      <a href="#about">About Me</a>
-      <a href="#myprojects">My Projects</a>
-      <a href="#contact">Contact</a>
-    </div>
-
     <div id="home">
-      <img src="/image/study4.jpg" alt="" width="100%" height="600px" />
+      <nav class="navbar navbar-expand-xl py-3" id="nav">
+               <!-- Links -->
+        <ul class="nav navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact me</a>
+          </li>
+        </ul>
+      
+      </nav>
       <div id="content">
-        <h1>Rowena Rono Web Developer</h1>
-        <h2>Welcome to my portfolio</h2>
+        <h3>Rowena Rono Web Developer</h3>
+        <h4>Welcome to my portfolio</h4>
       </div>
     </div>
-    
-    <section>
+​      
+<section class="color">
       <div class="aboutme">
-        <h1>About-Me</h1>
-        <h2>My Background</h2>
-        <img src="/image/code3.jpg" alt="code3">
-        <p>
-          I go by the name <strong>Rono</strong> because i love using my sir
-          name most of the time.Am a very ethusiastic person i love challenges
-          that why i took up software engineering at <em>Moringa School.</em>
-        </p>
-        <p>
-          One of my key quotes in life is
-          <strong>trusting the process</strong>so each time i do things i do
-          them step by step.Am very passionate about technology and just
-          everything about it
-          <span>wish to be one hell of hanker some day </span>
-        </p>
+        <h2>About-Me</h2>
+        <div class="row" id="aboutRow">
+          <div class="col-4" id="aboutImg">
+            <img src="/image/code1.jpg" class="img-fluid">
+          </div>
+          <div class="col-8">
+            <p>
+              I go by the name <strong>Rono</strong> because i love using my sir
+              name most of the time.Am a very ethusiastic person i love challenges
+              that why i took up software engineering at <em>Moringa School.</em>
+            </p>
+            <p>
+              One of my key quotes in life is
+              <strong>trusting the process</strong>so each time i do things i do
+              them step by step.Am very passionate about technology and just
+              everything about it
+              <span>wish to be one hell of hanker some day </span>
+            </p>
+          </div>
+        </div>
+      </div>
+        
+     <div class="hobbies">
         <h2>My hobbies</h2>
-        <ol>
-          <li>Reading books</li>
-          <li>Listinig to Teds talks</li>
-          <li>Hiking</li>
-          <li>Travelling</li>
-          <li>Socializing</li>
-        </ol>
+        <div class="row" id="hobbyRow">
+          <div class="col-4">
+            <ul>
+              <li>
+                Reading books
+              </li>
+            </ul>
+          </div>
+          <div class="col-4">
+            <ul>
+              <li>
+                Listinig to Teds talks
+              </li>
+            </ul>
+          </div>
+          <div class="col-4">
+            <ul>
+              <li>
+                Hiking
+              </li>
+            </ul>
+          </div>
+          <div class="col-4">
+            <ul>
+              <li>
+                Travelling
+              </li>
+            </ul>
+          </div>
+          <div class="col-4">
+            <ul>
+              <li>
+                Socializing
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
+​
       <div class="project">
-        <h1>My-project</h1>
-        <p>
-          This was my first project where i created a website of a parlor.So
-          basically its a platform where ladies come forward and make their
-          nails and do facial which makes them look beautiful.
-        </p>
-        <p>This a glipse of my web page.</p>
-        <h4>Technology Used</h4>
-        <ol>
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>BOOTSTRAP</li>
-        </ol>
-        <a href="https://rowenarono95.github.io/ROWLY-BEAUTY-PARLOR/"
-          >ROWLY-BEAUTY-PARLOR</a>
+        <h2>My-project</h2>
+        <div class="row" id="projectRow">
+          <div class="col-4" id="projectImg">
+            <img src="/image/almond nails.jpeg" class="img-fluid">
+          </div>
+          <div class="col-8">
+            <p>
+              This was my first project where i created a website of a parlor.So
+              basically its a platform where ladies come forward and make their
+              nails and do facial which makes them look beautiful.
+            </p>
+            <p>This a glipse of my web page.</p>
+            <h4>Technology Used</h4>
+            <ol>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>BOOTSTRAP</li>
+            </ol>
+            <a href="https://rowenarono95.github.io/ROWLY-BEAUTY-PARLOR/"
+              >ROWLY-BEAUTY-PARLOR</a>
+          </div>
+        </div>
+       
       </div>
-    </section>  
+  
     <div id="contact"></div>
-    <footer>
-        <h1>Contact</h1>
+    <footer id="footer">
+        <h2>Contact</h2>
         <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
         <a href="https://twitter.com/" class="fa fa-twitter"></a>
         <a href="https://www.instagram.com/" class="fa fa-instagram"></a>
         <p>Or call and email me at:<br>+254757090449<br>rowenarono@gmali.com</p>
     </footer>
-
+​</section>
   </body>
 </html>
