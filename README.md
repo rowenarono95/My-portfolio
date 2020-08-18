@@ -7,9 +7,13 @@
 </td>
 </tr>
 </table>
-### Author Rowena Rono
+
+### Author 
+Rowena Rono
+
 ## Demo
-Here is a working live demo :https://rowenarono95.github.io/My-portfolio/ 
+Here is a working live demo :https://rowenarono95.github.io/My-portfolio/
+
 ### Development
 Want to contribute? Great!
 
