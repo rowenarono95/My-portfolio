@@ -9,7 +9,7 @@
 </table>
 
 ## Demo
-Here is a working live demo : gig
+Here is a working live demo :https://rowenarono95.github.io/My-portfolio/ 
 ### Development
 Want to contribute? Great!
 
@@ -36,7 +36,7 @@ If you'd like to request a new function, feel free to do so by opening an issue 
 - CSS
 - Bootstrap
 
-## [License](https://github.com/rowenarono95/My-portfolio/blob/master/LICENSE.md)
+## [License](https://rowenarono95.github.io/My-portfolio//blob/master/LICENSE.md)
 
 MIT © [Rowena Rono ](https://github.com/rowenarono95)
 
