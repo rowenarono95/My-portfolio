@@ -77,6 +77,8 @@ h2{
 #content{
     padding-top:10%;
     padding-left:2%;
+    font-size: large;
+    color: ivory;
 }
 #nav .nav-item .nav-link{
     color:white;

@@ -1,6 +1,6 @@
 The Star And Thank Author License (SATA)
 
-Copyright (c) [Rowena Rono](https://github.com/rowenarono95/My-portfolio) <rowenarono@gmail.com>
+Copyright (c)  [Rowena Rono](https://github.com/rowenarono95) <rowenarono@gmail.com>
 
 Project Url: https://github.com/rowenarono95/My-portfolio
 
