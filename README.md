@@ -7,7 +7,7 @@
 </td>
 </tr>
 </table>
-
+### Author Rowena Rono
 ## Demo
 Here is a working live demo :https://rowenarono95.github.io/My-portfolio/ 
 ### Development
