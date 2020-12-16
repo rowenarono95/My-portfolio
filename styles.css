@@ -1,112 +1,176 @@
-*{
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+* {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-body{
-  font-size: 5rem;
+body {
+    font-size: 5rem;
 }
 
-.navbar-nav li{
+.navbar-nav li {
     justify-content: end;
 }
 
-#nav .nav-item .nav-link{
-  color:white;
-  font-size: 25px;
-  text-transform: uppercase;
-  font-weight: 900;
-}
-
-#nav .nav-item .nav-link:hover{
-  color:blue;
-}
-
-#home {
-    background-image:url("image/study.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    height:400px;
-}
-
-h3{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: bold;
-}
-
-#aboutImg{
-    padding-left: 5%;
-}
-​
-.aboutme h2{
-    text-align: center;
-    font-size: 40px;
-}
-#aboutRow{
-    padding-top: 2%;
-    display: flex;
-}
-.hobbies h2{
-    text-align: center;
-    font-size: 40px;
-}
-.project h2{
-    text-align: center;
-    font-size: 40px;
-}
-#projectImg img{
-    padding-left: 15%;   
-}
-#projectRow{
-    display: flex;
-    justify-content: space-between;
-}
-#footer{
-    text-align: center;
-}
-#hobbyRow ul{
-    padding-left: 20%;
-}
-h2{
-  font-size:40px;
-  text-align: center;
-    color: chocolate;    
-}
-#footer h2{
-    font-size: 40px;
-}
-#content{
-    padding-top:10%;
-    padding-left:2%;
-    font-size: large;
-    color: ivory;
-}
-#nav .nav-item .nav-link{
-    color:white;
+#nav .nav-item .nav-link {
+    color: white;
     font-size: 25px;
     text-transform: uppercase;
     font-weight: 900;
 }
-#nav .nav-item .nav-link:hover{
-    color:blue;
+
+#nav .nav-item .nav-link:hover {
+    color: blue;
 }
 
-.color{
-  background-color: rgb(248, 239, 239);
-  font-size: x-large;
+#home {
+    background-image: url("image/study.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
 }
 
-img{
-  border-radius: 25px;
+h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
 }
 
-span{
+#aboutImg {
+    padding-left: 5%;
+}
+
+​ .aboutme h2 {
+    text-align: center;
+    font-size: 40px;
+}
+
+#aboutRow {
+    padding-top: 2%;
+    display: flex;
+}
+
+.hobbies h2 {
+    text-align: center;
+    font-size: 40px;
+}
+
+.project h2 {
+    text-align: center;
+    font-size: 40px;
+}
+
+#projectImg img {
+    padding-left: 15%;
+    height: 500px;
+    object-fit: cover;
+}
+
+#projectRow {
+    display: flex;
+    justify-content: space-between;
+}
+
+#footer {
+    text-align: center;
+}
+
+#hobbyRow ul {
+    padding-left: 20%;
+}
+
+h2 {
+    font-size: 40px;
+    text-align: center;
+    color: chocolate;
+}
+
+#footer h2 {
+    font-size: 40px;
+}
+
+#content {
+    padding-top: 10%;
+    padding-left: 2%;
+    font-size: large;
+    color: ivory;
+}
+
+#nav .nav-item .nav-link {
+    color: white;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+#nav .nav-item .nav-link:hover {
+    color: blue;
+}
+
+.color {
+    background-color: beige;
+    font-size: x-large;
+}
+
+img {
+    border-radius: 25px;
+}
+
+span {
     color: indigo;
 }
 
+.about-container {
+    width: 80%;
+    height: 330px;
+    background: #ffffff;
+    border-radius: 20px;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+    display: flex;
+    margin: -7% auto 20px auto;
+    position: relative;
+    justify-content: space-evenly;
+    align-items: center;
+}
 
+.about-container img {
+    height: 250px;
+}
 
+.about-text {
+    width: 500px;
+}
 
+.about-text p:nth-child(1) {
+    color: #403e3e;
+    font-family: myriad pro;
+    font-weight: bold;
+    font-size: 23px;
+    line-height: 0px;
+    margin-top: 15px;
+}
 
+.about-text p:nth-child(2) {
+    color: #3e3d3d;
+    font-size: 13px;
+    font-family: myriad pro;
+    font-weight: bold;
+    line-height: 5px;
+}
 
+.about-text p:nth-child(3),
+.about-text p:nth-child(4) {
+    color: #7e7d7d;
+    font-family: calibri;
+    font-size: 20px;
+}
 
-
+.about-text button {
+    width: 120px;
+    height: 50px;
+    color: #ffffff;
+    outline: none;
+    border: none;
+    font-family: calibri;
+    background-color: #262525;
+}
+.about-container img{
+	height:250px;
+}

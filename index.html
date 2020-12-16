@@ -4,13 +4,16 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
     <title>Portfolio</title>
   </head>
   <body>
     <div id="home">
       <nav class="navbar navbar-expand-xl py-3 sticky-top" id="nav">
-               <!-- Links -->
+        <!-- Links -->
         <ul class="nav navbar-nav ml-auto">
           <li class="nav-item">
             <a class="nav-link" href="#home">Home</a>
@@ -25,113 +28,174 @@
             <a class="nav-link" href="#contact">Contact me</a>
           </li>
         </ul>
-      
       </nav>
       <div id="content">
         <h3>Rowena Rono Web Developer</h3>
         <h4>Welcome to my portfolio</h4>
       </div>
     </div>
-​      
-<section class="color">
-      <div class="aboutme" id="aboutme">
-        <h2>About-Me</h2>
-        <div class="row" id="aboutRow">
-          <div class="col-4" id="aboutImg">
-            <img src="image/code1.jpg" class="img-fluid">
-          </div>
-          <div class="col-8">
-            <p>
-              I go by the name <strong>Rono</strong> because i love using my sir
-              name most of the time.Am a very ethusiastic person i love challenges
-              that why i took up software engineering at <em>Moringa School.</em>
-            </p>
-            <p>
-              One of my key quotes in life is
-              <strong>trusting the process</strong>so each time i do things i do
-              them step by step.Am very passionate about technology and just
-              everything about it
-              <span>wish to be one hell of hanker some day </span>
-            </p>
+    
+      <div class="about-container mt-5">
+        <!--img-->
+          <img src="./image/roro.jpeg" height=""/>
+        <!--about-me-text-->
+          <div class="about-text">
+          <p>About Me</p>
+          <p>Software Developer</p>
+          <p>Hi, I'm a Full Stack Web developer, Competitive programmer and an open source Enthusiast who is highly passionate about building fast, creative applications and writing beautiful codes.<br> Also, I love to build and design experiences which make people life easy.</p>
+          <button>Hire Me</button>
+          <button>Download CV</button>
           </div>
         </div>
-      </div>
-        
-     <div class="hobbies">
-        <h2>My hobbies</h2>
-        <div class="row" id="hobbyRow">
-          <div class="col-4">
-            <ul>
-              <li>
-                Reading books
-              </li>
-            </ul>
-          </div>
-          <div class="col-4">
-            <ul>
-              <li>
-                Listinig to Teds talks
-              </li>
-            </ul>
-          </div>
-          <div class="col-4">
-            <ul>
-              <li>
-                Hiking
-              </li>
-            </ul>
-          </div>
-          <div class="col-4">
-            <ul>
-              <li>
-                Travelling
-              </li>
-            </ul>
-          </div>
-          <div class="col-4">
-            <ul>
-              <li>
-                Socializing
-              </li>
-            </ul>
-          </div>
+
+      <section class="page-section" id="skills">
+        <div class="container mt-5">
+            <div class="text-center">
+                <h2 class="section-heading text-uppercase">Technical Skills</h2>
+                <h3 class="section-subheading text-muted"></h3>
+            </div>
+            <div class="row">
+                <div class="col-md-3">
+                   <span><img src="./image/logos/postgresql.png" class="imgs" height="200px" width="200px" alt=""></span>
+                </div>
+                <div class="col-md-3">
+                  <img src="./image/logos/flask.png" class="imgs" height="200px" width="200px" alt="">   
+                </div>
+                <div class="col-md-3">
+                   <img src="./image/logos/javascript.jpg" class="imgs" height="200px" width="200px" alt=""> 
+                </div>
+                <div class="col-md-3">
+                  <img src="./image/logos/html5.png" class="imgs" height="200px" width="200px" alt=""> 
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+              <div class="col-md-3">
+                <img src="./image/logos/django.png" class="imgs" height="200px" width="200px" alt="">
+              </div>
+              <div class="col-md-3">
+                <img src="./image/logos/css.jpg" class="imgs" height="200px" width="200px" alt="">
+              </div>
+              <div class="col-md-3">
+                <img src="./image/logos/angular.png" class="imgs" height="200px" width="200px" alt="">
+              </div>
+              <div class="col-md-3">
+                <img src="./image/logos/python.png" class="imgs" height="200px" width="200px" alt="">
+              </div>
+            </div>
         </div>
-      </div>
-​
-      <div class="project" id="projects">
-        <h2>My-project</h2>
-        <div class="row" id="projectRow">
-          <div class="col-4" id="projectImg">
-            <img src="image/almond nails.jpeg" class="img-fluid">
+    </section><section class="page-section bg-light" id="projects">
+      <div class="container">
+          <div class="text-center">
+              <h2 class="section-heading text-uppercase mt-5">My Projects</h2>
+              <h3 class="section-subheading text-muted">These are some of my amazing projects</h3>
           </div>
-          <div class="col-8">
-            <p>
-              This was my first project where i created a website of a parlor.So
-              basically its a platform where ladies come forward and make their
-              nails and do facial which makes them look beautiful.
-            </p>
-            <p>This a glipse of my web page.</p>
-            <h4>Technology Used</h4>
-            <ol>
-              <li>HTML</li>
-              <li>CSS</li>
-              <li>BOOTSTRAP</li>
-            </ol>
-            <a href="https://rowenarono95.github.io/ROWLY-BEAUTY-PARLOR/"
-              >view here</a>
+          <div class="row">
+              <div class="col-lg-4 col-sm-6 mb-4">
+                  <div class="portfolio-item">
+                      <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
+                          <div class="portfolio-hover">
+                              <div class="portfolio-hover-content"></div>
+                          </div>
+                          <img class="img-fluid" src="./image/bikepr3.png" height="200px" width="300px" alt="" />
+                      </a>
+                      <div class="portfolio-caption">
+                          <div class="portfolio-caption-heading">Bikes-R-Us</div>
+                          <a class="btn btn btn-rounded btn-outline-black btn-sm"  href="https://hamsoace.github.io/Bikes-R-Us/index.html
+                          " target="blank" ><i class="fa fa-clone left"></i> View project</a>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-lg-4 col-sm-6 mb-4">
+                  <div class="portfolio-item">
+                      <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
+                          <div class="portfolio-hover">
+                              <div class="portfolio-hover-content"></div>
+                          </div>
+                          <img class="img-fluid" src="./image/instapr1.png" height="200px" width="300px" alt="" />
+                      </a>
+                      <div class="portfolio-caption">
+                          <div class="portfolio-caption-heading">Instagram</div>
+                          <a class="btn btn btn-rounded btn-outline-black btn-sm"  href="https://gram24.herokuapp.com/
+                          " target="blank" ><i class="fa fa-clone left"></i> View project</a>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-lg-4 col-sm-6 mb-4">
+                  <div class="portfolio-item">
+                      <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
+                          <div class="portfolio-hover">
+                              <div class="portfolio-hover-content"></div>
+                          </div>
+                          <img class="img-fluid" src="./image/pizzapr3.png" height="200px" width="300px" alt="" />
+                      </a>
+                      <div class="portfolio-caption">
+                          <div class="portfolio-caption-heading">Pizza-Palace</div>
+                          <a class="btn btn btn-rounded btn-outline-black btn-sm"  href="https://rowenarono95.github.io/Pizza-Palace/
+                          " target="blank" ><i class="fa fa-clone left"></i> View project</a>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
+                  <div class="portfolio-item">
+                      <a class="portfolio-link" data-toggle="modal" href="#portfolioModal4">
+                          <div class="portfolio-hover">
+                              <div class="portfolio-hover-content"></div>
+                          </div>
+                          <img class="img-fluid" src="./image/gitserpr3.png" height="200px" width="300px" alt="" />
+                      </a>
+                      <div class="portfolio-caption">
+                          <div class="portfolio-caption-heading">Github-Search</div>
+                          <a class="btn btn btn-rounded btn-outline-black btn-sm"  href="https://rowenarono95.github.io/Github-Search/
+                          " target="blank" ><i class="fa fa-clone left"></i> View project</a>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-lg-4 col-sm-6 mb-4 mb-sm-0">
+                  <div class="portfolio-item">
+                      <a class="portfolio-link" data-toggle="modal" href="#portfolioModal5">
+                          <div class="portfolio-hover">
+                              <div class="portfolio-hover-content"></div>
+                          </div>
+                          <img class="img-fluid" src="./image/neghbpr3.png" height="200px" width="300px" alt="" />
+                      </a>
+                      <div class="portfolio-caption">
+                          <div class="portfolio-caption-heading">Neighbourhood</div>
+                          <a class="btn btn btn-rounded btn-outline-black btn-sm"  href="https://5fd096f7122700000882a61c--adoring-mccarthy-045e82.netlify.app/
+                          " target="blank" ><i class="fa fa-clone left"></i> View project</a>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-lg-4 col-sm-6">
+                  <div class="portfolio-item">
+                      <a class="portfolio-link" data-toggle="modal" href="#portfolioModal6">
+                          <div class="portfolio-hover">
+                              <div class="portfolio-hover-content"></div>
+                          </div>
+                          <img class="img-fluid" src="./image/akan1.png" height="200px" width="300px" alt="" />
+                      </a>
+                      <div class="portfolio-caption">
+                          <div class="portfolio-caption-heading">Akan Names</div>
+                          <a class="btn btn btn-rounded btn-outline-black btn-sm"  href="https://rowenarono95.github.io/Akan-Names/
+                          " target="blank" ><i class="fa fa-clone left"></i> View project</a>
+                      </div>
+                  </div>
+              </div>
           </div>
-        </div>
-       
       </div>
-  
-    <div id="contact"></div>
-    <footer id="footer">
+  </section>
+
+      <div id="contact"></div>
+      <footer id="footer">
         <h2>Contact</h2>
         <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
         <a href="https://twitter.com/" class="fa fa-twitter"></a>
         <a href="https://www.instagram.com/" class="fa fa-instagram"></a>
-        <p>Or call and email me at:<br>+254757090449<br>rowenarono@gmali.com</p>
-    </footer>
-​</section>
+        <p>
+          Or call and email me at:<br />+254757090449<br />rowenarono@gmali.com
+        </p>
+      </footer>
+      ​
+    </section>
   </body>
 </html>
